@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vertical Image Gallery with Dividers</title>
+  <link rel="stylesheet" href="2 in 1.css">
+</head>
+<body>
+
+  <div class="layout-container">
+    
+    <!-- Left Column: Vertical Images & Dividers -->
+    <div class="image-column">
+
+      <!-- Card 1 -->
+      <div class="card" onclick="toggleBubble(this)">
+        <img src="" alt="laptop">
+        <div class="info-bubble">
+          <h3>laptop</h3>
+          <p>Laptop</p>
+        </div>
+      </div>
+
+      <!-- Divider between Image 1 and 2 -->
+      <div class="card-divider"></div>
+
+      <!-- Card 2 -->
+      <div class="card" onclick="toggleBubble(this)">
+        <img src="" alt="laptop">
+        <div class="info-bubble">
+          <h3>laptop</h3>
+          <p>Laptop</p>
+        </div>
+      </div>
+
+      <!-- Divider between Image 2 and 3 -->
+      <div class="card-divider"></div>
+
+      <!-- Card 3 -->
+      <div class="card" onclick="toggleBubble(this)">
+        <img src="" alt="laptop">
+        <div class="info-bubble">
+          <h3>laptop</h3>
+          <p>Laptop</p>
+        </div>
+      </div>
+            <!-- Divider between Image 1 and 2 -->
+      <div class="card-divider"></div>
+
+      <!-- Card 2 -->
+      <div class="card" onclick="toggleBubble(this)">
+        <img src="" alt="laptop">
+        <div class="info-bubble">
+          <h3>laptop</h3>
+          <p>Laptop</p>
+        </div>
+      </div>
+            <!-- Divider between Image 1 and 2 -->
+      <div class="card-divider"></div>
+
+      <!-- Card 2 -->
+      <div class="card" onclick="toggleBubble(this)">
+        <img src="" alt="laptop">
+        <div    class="info-bubble">
+          <h3>laptop</h3>
+          <p>Laptop</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script>
+    function toggleBubble(selectedCard) {
+      const isActive = selectedCard.classList.contains('active');
+
+      document.querySelectorAll('.card').forEach(card => {
+        card.classList.remove('active');
+      });
+
+      if (!isActive) {
+        selectedCard.classList.add('active');
+      }
+    }
+  </script>
+
+</body>
+</html>
