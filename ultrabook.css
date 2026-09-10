@@ -29,7 +29,7 @@ body {
 }
 
 .card img {
-  width: 200%;
+  width: 150%;
   border-radius: 12px;
   border: 1.5px solid #333;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -47,7 +47,7 @@ body {
   background-color: #ccc;
   margin: 20px 10px; /* Adjust spacing around the line */
   border-radius: 2px;
-  width: 190%;
+  width: 1800px;
 }
 
 /* Speech Bubble Styling */
@@ -57,7 +57,7 @@ body {
   left: 400px; /* Positions bubble to the right of the image */
   top: 50%;
   transform: translateY(-50%);
-  width: 500px;
+  width: 1000px;
   height: auto;
   background: #ffffff;
   border: 1px solid #ccc;
