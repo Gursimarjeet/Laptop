@@ -8,10 +8,12 @@
 body {
   background-color: #f4f4f4;
   padding: 40px;
+  background-image: url('photo-1755502046551-102bcdc6f0c6.avif');
+  background-size: cover;
 }
 
 .layout-container {
-  display: flex;
+  display: flex;  
   max-width: 800px;
 }
 

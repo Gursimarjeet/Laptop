@@ -11,7 +11,8 @@ body {
     min-height: 100vh;
     background-color: rgb(255, 251, 247);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-
+    background-image: url('photo-1708724195876-1156245fce21.avif');
+    background-size: cover;
 }
 
 .container {
@@ -46,7 +47,7 @@ h1 {
     border: 3px solid #222222;
     border-radius: 28px;
     overflow: hidden;
-    background-color: #ac9494;
+    background-color: #b4b4b477;
     text-decoration: none;
     padding: 15px;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
