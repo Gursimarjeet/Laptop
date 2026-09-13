@@ -11,7 +11,7 @@ body {
     min-height: 100vh;
     background-color: rgb(255, 251, 247);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    background-image: url('photo-1708724195876-1156245fce21.avif');
+    background-image: url('black\ and\ blue.avif');
     background-size: cover;
 }
 
@@ -25,7 +25,7 @@ body {
 h1 {
     font-size: 3rem;
     font-weight: 700;
-    color: #6e7b7c;
+    color: #87abaf;
     margin-bottom: 80px;
 }
 
