@@ -14,7 +14,7 @@ h1 {
 body {
   background-color: #f4f4f4;
   padding: 40px;
-  background-image: url('pexels-photo-12489429.avif');
+  background-image: url('./images/pexels-photo-12489429.avif');
   background-size: cover;
 }
 
