@@ -2,14 +2,14 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
 }
 
 h1 {
   text-align: center;
   margin-bottom: 20px;
   color: #c2d9db;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 body {
